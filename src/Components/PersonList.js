@@ -31,8 +31,9 @@ const PersonList = () => {
         <Person person={people[i]} key={j} />
       ))} */}
       <Person person={people[0]} />
-      <Person person={people[1]}>I'm son of Ahmed</Person>
+      <Person person={people[1]}>I'm a proud son of Ahmed</Person>
       <Person person={people[2]} />
+      <Person person={people[3]} />
     </div>
   );
 };
